@@ -1,0 +1,17 @@
+.header{
+  padding: 12px;
+  border-bottom: 1px solid lightgray;
+
+  p{
+    margin: 4px 0;
+  }
+
+  &__title{
+    font-size: 24px;
+    text-align: right;
+  }
+
+  &__subtitle{
+    text-align: right;
+  }
+}

@@ -1,0 +1,11 @@
+body *{
+  box-sizing: border-box;
+}
+.content{
+  padding: 12px;
+
+  .temps-list{
+    display: flex;
+    justify-content: space-between;
+  }
+}
