@@ -53,12 +53,25 @@ const App = () => {
             title: {
               text: 'Data'
             },
+            plotOptions:{
+              line:{
+                marker:{
+                  enabled: true
+                }
+              }
+            },
             series: [
               {
+                marker: {
+                  enabled: false
+                },
                 name: 'ID 1',
                 data: chartData["ID1"]
               },
               {
+                marker: {
+                  enabled: false
+                },
                 name: 'ID 2',
                 data: chartData["ID2"]
               },
